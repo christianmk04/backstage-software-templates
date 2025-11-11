@@ -35,6 +35,7 @@ spec:
         url: ./template
         values:
           component_id: ${{ parameters.component_id }}
+          app_name: ${{ parameters.component_id }}
           environment: ${{ parameters.environment }}
 
     - id: publish
