@@ -44,7 +44,7 @@ spec:
         # allowedHosts:
           # - github.com
         description: This is ${{ parameters.component_id }}
-        repoUrl: github.com?owner=christianmk-04&repo=${{ parameters.component_id }}
+        repoUrl: github.com?owner=christianmk04&repo=${{ parameters.component_id }}
         # protectDefaultBranch: false
         repoVisibility: public
 
