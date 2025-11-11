@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{values.app_name}}
-  description: A simple Python application named ${{values.app_name}} demonstrating Backstage integration.
+  name: ${{ values.app_name }}
+  description: A simple Python application named ${{ values.app_name }} demonstrating Backstage integration.
   annotations:
-    github.com/project-slug: christianmk/${{values.app_name}}
+    github.com/project-slug: christianmk/${{ values.app_name }}
     # backstage.io/techdocs-ref: dir:.
 spec:
   type: service
