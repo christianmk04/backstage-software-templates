@@ -36,7 +36,7 @@ spec:
         values:
           component_id: ${{ parameters.component_id }}
           app_name: ${{ parameters.component_id }}
-          environment: ${{ parameters.environment }}
+          app_env: ${{ parameters.environment }}
 
     - id: publish
       name: Publish
