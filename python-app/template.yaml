@@ -41,12 +41,12 @@ spec:
       name: Publish
       action: publish:github
       input:
-        allowedHosts:
-          - github.com
+        # allowedHosts:
+          # - github.com
         description: This is ${{ parameters.component_id }}
         repoUrl: github.com?owner=christianmk-04&repo=${{ parameters.component_id }}
-        protectDefaultBranch: false
-        visibility: public
+        # protectDefaultBranch: false
+        repoVisibility: public
 
     - id: register
       name: Register
