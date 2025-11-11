@@ -43,10 +43,10 @@ spec:
       input:
         allowedHosts:
           - github.com
-      description: This is ${{ parameters.component_id }}
-      repoUrl: github.com?owner=christianmk-04&repo=${{ parameters.component_id }}
-      protectDefaultBranch: false
-      visibility: public
+        description: This is ${{ parameters.component_id }}
+        repoUrl: github.com?owner=christianmk-04&repo=${{ parameters.component_id }}
+        protectDefaultBranch: false
+        visibility: public
 
     - id: register
       name: Register
